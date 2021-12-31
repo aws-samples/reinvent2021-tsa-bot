@@ -1,0 +1,686 @@
+{
+  "version": "13.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "TSABotStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "TSABotStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/TSABotStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22",
+              "id": "34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22",
+              "packaging": "zip",
+              "sourceHash": "34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22",
+              "s3BucketParameter": "AssetParameters34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22S3Bucket0C9B2C82",
+              "s3KeyParameter": "AssetParameters34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22S3VersionKey0B5D313C",
+              "artifactHashParameter": "AssetParameters34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22ArtifactHash77FAB7E6"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/construct-compat.js:405:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:175:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "TSABotStack.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:44:44)",
+              "AssetCode.bind (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:91:21)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2",
+              "id": "11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2",
+              "packaging": "zip",
+              "sourceHash": "11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2",
+              "s3BucketParameter": "AssetParameters11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2S3Bucket04AFB68D",
+              "s3KeyParameter": "AssetParameters11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2S3VersionKeyC247374B",
+              "artifactHashParameter": "AssetParameters11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2ArtifactHashF319B5BD"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/construct-compat.js:405:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:175:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "TSABotStack.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:44:44)",
+              "AssetCode.bind (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "SingletonFunction.ensureLambda (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:153:16)",
+              "new SingletonFunction (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:28:36)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:177:26)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:113:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/tsaimagesddb": [
+          {
+            "type": "aws:cdk:hasPhysicalName",
+            "data": {
+              "Ref": "TSABottsaimagesddbC2B583E6"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-dynamodb/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "new Table (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:486:23)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:62:19)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/tsaimagesddb/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABottsaimagesddbC2B583E6",
+            "trace": [
+              "new Table (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:459:22)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:62:19)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/DDBTabletsaimagesARN": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotDDBTabletsaimagesARN7752C4BC",
+            "trace": [
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:69:22)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/Flightsddb": [
+          {
+            "type": "aws:cdk:hasPhysicalName",
+            "data": {
+              "Ref": "TSABotFlightsddb5DA000DB"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-dynamodb/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "new Table (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:486:23)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:75:28)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/Flightsddb/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotFlightsddb5DA000DB",
+            "trace": [
+              "new Table (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:459:22)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:75:28)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/DDBTableFlightsARN": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotDDBTableFlightsARN68F3ADDE",
+            "trace": [
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:84:29)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/FlightsDepartureLambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotFlightsDepartureLambdaServiceRole38E95A52",
+            "trace": [
+              "new Role (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-iam/lib/role.js:74:22)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:82:35)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:91:21)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/FlightsDepartureLambda/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotFlightsDepartureLambdaServiceRoleDefaultPolicy899C3CDE",
+            "trace": [
+              "new Policy (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-iam/lib/role.js:213:34)",
+              "Function.addToRolePolicy (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:62:19)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:104:13)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/FlightsDepartureLambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotFlightsDepartureLambda441FA50C",
+            "trace": [
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:145:26)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:91:21)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/MyProviderDrink/CustomResourcePolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotMyProviderDrinkCustomResourcePolicyFC51D724",
+            "trace": [
+              "new Policy (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:216:24)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:113:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/MyProviderDrink/Resource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotMyProviderDrinkA062A6DE",
+            "trace": [
+              "new CustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/node_modules/@aws-cdk/core/lib/custom-resource.js:32:25)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:223:31)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:113:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/initDBResourcePhone/CustomResourcePolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotinitDBResourcePhoneCustomResourcePolicy856B9153",
+            "trace": [
+              "new Policy (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:216:24)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:126:34)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/initDBResourcePhone/Resource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotinitDBResourcePhoneD3A5C970",
+            "trace": [
+              "new CustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/node_modules/@aws-cdk/core/lib/custom-resource.js:32:25)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:223:31)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:126:34)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/initDBResourceHat/CustomResourcePolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotinitDBResourceHatCustomResourcePolicyACFD382B",
+            "trace": [
+              "new Policy (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:216:24)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:139:31)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/initDBResourceHat/Resource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotinitDBResourceHat9F021360",
+            "trace": [
+              "new CustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/node_modules/@aws-cdk/core/lib/custom-resource.js:32:25)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:223:31)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:139:31)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/initDBResourceLaptop/CustomResourcePolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotinitDBResourceLaptopCustomResourcePolicy1DFE7A5B",
+            "trace": [
+              "new Policy (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:216:24)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:152:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/initDBResourceLaptop/Resource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotinitDBResourceLaptop59B7F43C",
+            "trace": [
+              "new CustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/node_modules/@aws-cdk/core/lib/custom-resource.js:32:25)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:223:31)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:152:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/initDBResourceJacket/CustomResourcePolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotinitDBResourceJacketCustomResourcePolicyE9B507F9",
+            "trace": [
+              "new Policy (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:216:24)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:165:30)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/TSABot/initDBResourceJacket/Resource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TSABotinitDBResourceJacket465C4B1E",
+            "trace": [
+              "new CustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/node_modules/@aws-cdk/core/lib/custom-resource.js:32:25)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:223:31)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:165:30)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/AssetParameters/34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22S3Bucket0C9B2C82",
+            "trace": [
+              "new FileAssetParameters (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "TSABotStack.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:44:44)",
+              "AssetCode.bind (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:91:21)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/AssetParameters/34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22S3VersionKey0B5D313C",
+            "trace": [
+              "new FileAssetParameters (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "TSABotStack.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:44:44)",
+              "AssetCode.bind (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:91:21)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/AssetParameters/34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters34e613cbed9fe6d92140a799a0714c454ff967fe816d79cb9e5cef24fdb8ad22ArtifactHash77FAB7E6",
+            "trace": [
+              "new FileAssetParameters (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "TSABotStack.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:44:44)",
+              "AssetCode.bind (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:91:21)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/AssetParameters/11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2S3Bucket04AFB68D",
+            "trace": [
+              "new FileAssetParameters (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "TSABotStack.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:44:44)",
+              "AssetCode.bind (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "SingletonFunction.ensureLambda (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:153:16)",
+              "new SingletonFunction (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:28:36)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:177:26)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:113:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/AssetParameters/11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2S3VersionKeyC247374B",
+            "trace": [
+              "new FileAssetParameters (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "TSABotStack.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:44:44)",
+              "AssetCode.bind (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "SingletonFunction.ensureLambda (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:153:16)",
+              "new SingletonFunction (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:28:36)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:177:26)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:113:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/AssetParameters/11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters11d371859e49f3b1a49896583254890801a40beada56e4c84409a179a221e2e2ArtifactHashF319B5BD",
+            "trace": [
+              "new FileAssetParameters (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "TSABotStack.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:44:44)",
+              "AssetCode.bind (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:100:33)",
+              "SingletonFunction.ensureLambda (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:153:16)",
+              "new SingletonFunction (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:28:36)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:177:26)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:113:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+            "trace": [
+              "new Role (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-iam/lib/role.js:74:22)",
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:82:35)",
+              "SingletonFunction.ensureLambda (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:153:16)",
+              "new SingletonFunction (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:28:36)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:177:26)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:113:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/AWS679f53fac002430cb0da5b7982bd2287/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+            "trace": [
+              "new Function (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/function.js:145:26)",
+              "SingletonFunction.ensureLambda (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:153:16)",
+              "new SingletonFunction (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:28:36)",
+              "new AwsCustomResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:177:26)",
+              "new tsaService (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot_service.js:113:32)",
+              "new TSABotStack (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/lib/tsabot-templates-stack.js:16:5)",
+              "Object.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/bin/tsabot-templates.js:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TSABotStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:22:30)",
+              "/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stage.js:100:41)",
+              "process.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/app.js:51:51)",
+              "Object.onceWrapper (node:events:514:26)",
+              "process.emit (node:events:394:28)"
+            ]
+          }
+        ],
+        "/TSABotStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:30:35)",
+              "/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/stage.js:100:41)",
+              "process.<anonymous> (/Users/kedouard/Documents/SA/Labs/TSA bot/TSABot_BuildersFair/cloudformation-templates/node_modules/@aws-cdk/core/lib/app.js:51:51)",
+              "Object.onceWrapper (node:events:514:26)",
+              "process.emit (node:events:394:28)"
+            ]
+          }
+        ]
+      },
+      "displayName": "TSABotStack"
+    }
+  }
+}

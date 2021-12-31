@@ -1,0 +1,22 @@
+{
+  "name": "cloudformation-templates",
+  "version": "0.1.0",
+  "bin": {
+    "cloudformation-templates": "bin/cloudformation-templates.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.121.0",
+    "aws-cdk": "1.121.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.134.0",
+    "@aws-cdk/core": "1.121.0",
+    "@aws-cdk/custom-resources": "^1.134.0"
+  }
+}

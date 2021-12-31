@@ -1,0 +1,275 @@
+﻿{
+  "qna": [
+    {
+      "qid": "QnABot.007",
+      "question1": "Can I bring formula or breast milk?",
+      "question2": "Formula, breast milk",
+      "alt": {
+        "markdown": "Formula, breast milk and juice in quantities greater than 3.4 ounces or 100 milliliters are allowed in carry-on baggage and do need to not fit within a quart-sized bag. These items should be separated from other liquids, gels and aerosols limited to 3.4 ounces.\r\n\r\nIce packs, freezer packs, frozen gel packs and other accessories required to cool formula, breast milk and juice are allowed in your carry-on."
+      },
+      "a": "Formula, breast milk and juice in quantities greater than 3.4 ounces or 100 milliliters are allowed in carry-on baggage and do need to not fit within a quart-sized bag. These items should be separated from other liquids, gels and aerosols limited to 3.4 ounces.\r\n\r\nIce packs, freezer packs, frozen gel packs and other accessories required to cool formula, breast milk and juice are allowed in your carry-on.",
+      "type": "qna",
+      "q": [
+        "Can I bring formula or breast milk?",
+        "Formula, breast milk"
+      ]
+    },
+    {
+      "qid": "QnABot.010",
+      "a": "Please remove the laptops from your bag and place it in a separate bin for X-ray screening.",
+      "type": "qna",
+      "q": [
+        "laptop?"
+      ]
+    },
+    {
+      "qid": "QnABot.004",
+      "a": "You can carry cakes, fruit, vegetables, sandwiches and all solid foods in your hand baggage. However, foods in sauces or with a high liquid content (such as sauces, pastes, soups and stews) cannot come through security.",
+      "alt": {
+        "ssml": "<speak>You can carry cakes, fruit, vegetables, sandwiches and all solid foods in your hand baggage. However, foods in sauces or with a high liquid content (such as sauces, pastes, soups and stews) cannot come through security. </speak>",
+        "markdown": "You can carry cakes, fruit, vegetables, sandwiches and all solid foods in your hand baggage. However, foods in sauces or with a high liquid content (such as sauces, pastes, soups and stews) cannot come through security."
+      },
+      "t": "Alexa",
+      "r": {
+        "title": "Alexa"
+      },
+      "question1": "Can I bring food?",
+      "question2": "Is food allowed?",
+      "cardtitle": "Alexa",
+      "type": "qna",
+      "q": [
+        "Can I bring food?",
+        "Can I carry food?",
+        "Can I bring chocolate?",
+        "Can I bring chips?"
+      ]
+    },
+    {
+      "qid": "QnABot.001",
+      "a": "T. S. A. Bot is a humanoid robot that can help with the security screening process at the airport. Before you pass through the checkpoint, I provide instructions on what items you can’t carry and remind you on the correct procedure.",
+      "alt": {
+        "markdown": "T. S. A. Bot is a humanoid robot that can help with the security screening process at the airport. Before you pass through the checkpoint, AVA provides instructions on what items you can’t carry, and answers any item related questions in the choice of your language. AVA also detects if you are adhering to the instructions, for example, taking off shoes, and reminds you on the correct procedure."
+      },
+      "t": "Alexa",
+      "r": {
+        "title": "Alexa"
+      },
+      "question1": "What is the T S A Bot",
+      "question2": "What is TSA Bot",
+      "cardtitle": "Alexa",
+      "type": "qna",
+      "q": [
+        "What is the T S A Bot",
+        "What is TSA Bot",
+        "What are you?",
+        "Who are you?"
+      ]
+    },
+    {
+      "qid": "QnABot.008",
+      "a": "You can keep your watch on. Only electronics larger than a cell phone must be removed from their carrying cases and X-rayed separately.",
+      "alt": {
+        "markdown": "only electronics larger than a cell phone must be removed from their carrying cases and X-rayed separately."
+      },
+      "question1": "Can I keep my watch on?",
+      "question2": "Do you have to remove watch at airport security?",
+      "type": "qna",
+      "q": [
+        "Can I keep my watch on?",
+        "Do you have to remove watch at airport security?",
+        "watch?"
+      ]
+    },
+    {
+      "qid": "QnABot.006",
+      "a": "If you wear glasses, keep them on your face and don’t have them flipped up on the top of your head",
+      "alt": {
+        "markdown": "If you wear glasses, keep them on your face and don’t have them flipped up on the top of your head"
+      },
+      "question1": "Should I keep my glasses?",
+      "question2": "glasses?",
+      "type": "qna",
+      "q": [
+        "my glasses?",
+        "glasses?",
+        "Can I keep my glasses on?"
+      ]
+    },
+    {
+      "qid": "QnABot.015",
+      "a": "The 3-1-1 Rule refers to three core components that govern how many liquids you can bring in your carry-on bags: Each liquid must be in a 3.4-ounce or less container (\"3\"), all containers must be placed inside one clear quart-sized plastic bag (\"1\"), and each passenger is only allowed one plastic bag (\"1\").",
+      "type": "qna",
+      "q": [
+        "What is the 3 1 1 rule?"
+      ]
+    },
+    {
+      "qid": "QnABot.014",
+      "a": "Common travel items that must comply with the 3-1-1 liquids rule include toothpaste, shampoo, conditioner, mouthwash and lotion.",
+      "type": "qna",
+      "q": [
+        "Can I bring toothpaste?",
+        "Can I carry toothpaste?",
+        "Can I carry toothpaste?"
+      ]
+    },
+    {
+      "qid": "QnABot.002",
+      "a": "You can only bring a water bottle if it is under 3.4oz or 100 milliliters. You can always bring an empty water bottle and refill it after the security check.",
+      "alt": {
+        "ssml": "<speak>You can only bring a water bottle if it is under 3.4oz or 100 milliliters. You can always bring an empty water bottle and refill it after the security check.</speak>",
+        "markdown": "You can only bring a water bottle if it is under 3.4oz or 100 milliliters. You can always bring an empty water bottle and refill it after the security check."
+      },
+      "t": "Alexa",
+      "r": {
+        "title": "Alexa",
+        "imageUrl": "https://www.gatwickairport.com/contentassets/2771c35cb16d4df0bd5541ef12a80308/security.jpg"
+      },
+      "question1": "Can I bring a water bottle?",
+      "question2": "Am I allowed to bring a water bottle?",
+      "cardtitle": "Alexa",
+      "imageurl": "https://www.gatwickairport.com/contentassets/2771c35cb16d4df0bd5541ef12a80308/security.jpg",
+      "type": "qna",
+      "q": [
+        "Can I bring a water bottle?",
+        "Am I allowed to bring a water bottle?",
+        "Can I bring water?"
+      ]
+    },
+    {
+      "qid": "QnABot.003",
+      "a": "Most belts will have to be removed and placed in the x-ray bins before going through the screening machine. That’s because most belts have a belt buckle made out of metal, which sets the alarms off.",
+      "alt": {
+        "ssml": "<speak>Most belts will have to be removed and placed in the x-ray bins before going through the screening machine. That’s because most belts have a belt buckle made out of metal, which sets the alarms off. </speak>",
+        "markdown": "Most belts will have to be removed and placed in the x-ray bins before going through the screening machine. That’s because most belts have a belt buckle made out of metal, which sets the alarms off."
+      },
+      "t": "Alexa",
+      "r": {
+        "title": "Alexa"
+      },
+      "question1": "Do I need to remove my belt?",
+      "question2": "belt?",
+      "cardtitle": "Alexa",
+      "type": "qna",
+      "q": [
+        "Do I need to remove my belt?",
+        "belt?",
+        "Can I keep my belt?"
+      ]
+    },
+    {
+      "qid": "QnABot.005",
+      "a": "You will have to take your jackets and shoes off at the security checkpoint and put them into a plastic bin for screening unless you are over age 75.",
+      "alt": {
+        "ssml": "<speak>You will have to take your jackets and shoes off at the security checkpoint and put them into a plastic bin for screening unless you are over age 75.</speak>",
+        "markdown": "You will have to take your jackets and shoes off at the security checkpoint and put them into a plastic bin for screening unless you are over age 75."
+      },
+      "t": "Alexa",
+      "r": {
+        "title": "Alexa"
+      },
+      "question1": "Do I need to remove my jacket",
+      "question2": "Do i need to remove Shoes?",
+      "cardtitle": "Alexa",
+      "type": "qna",
+      "q": [
+        "Do I need to remove my jacket",
+        "Do i need to remove Shoes?",
+        "Can I bring my jacket",
+        "Can I keep my jacket?",
+        "Can I keep my vest?"
+      ]
+    },
+    {
+      "qid": "QnABot.013",
+      "a": "Let me identify your items.",
+      "alt": {
+        "markdown": "Let me identify your items."
+      },
+      "type": "qna",
+      "q": [
+        "Can I wear this?",
+        "Can I bring this?",
+        "Can I keep this?",
+        "Can I carry this?",
+        "Can I drink this?",
+        "Can I think this?",
+        "yes can i bring this?",
+        "what can i bring this"
+      ]
+    },
+    {
+      "qid": "QnABot.016",
+      "a": "Please check with your airline for their policy. Musical instruments must undergo screening when transported as carry-on or in checked bags. Musical instruments transported as carry-on require a physical inspection at the security checkpoint. Inform the TSA officer if your instrument requires special care and handling. Pack brass instruments in your checked bags.",
+      "type": "qna",
+      "q": [
+        "Can I bring a guitar?",
+        "Can I bring musical instrument?"
+      ]
+    },
+    {
+      "qid": "QnABot.009",
+      "a": "You can keep your phone in your carry on bag. Only electronics larger than phone need to be place in a separate bin.",
+      "type": "qna",
+      "q": [
+        "phone?",
+        "Can I keep my phone?"
+      ]
+    },
+    {
+      "qid": "QnABot.012",
+      "a": "I feel great! Thank you for asking.",
+      "type": "qna",
+      "q": [
+        "How are you?",
+        "How do you feel today?"
+      ]
+    },
+    {
+      "qid": "QnABot.017",
+      "a": "Bye bye.",
+      "type": "qna",
+      "q": [
+        "No",
+        "Bye bye",
+        "Goodbye"
+      ]
+    },
+    {
+      "qid": "QnABot.018",
+      "a": "I am going to reboot.",
+      "type": "qna",
+      "q": [
+        "Reboot now"
+      ]
+    },
+    {
+      "qid": "QnABot.019",
+      "a": "How I can help?",
+      "type": "qna",
+      "q": [
+        "Yes"
+      ]
+    },
+    {
+      "qid": "QnABot.011",
+      "a": "Keys, spare change, and other small metal objects are the first things you should remove before going through airport security. They contain enough metal to set the alarms off, so you should always place them inside an x-ray bin together with your other items",
+      "type": "qna",
+      "q": [
+        "Keys?",
+        "spare change?",
+        "wallet?",
+        "can i keep my keys"
+      ]
+    },
+    {
+      "qid": "QnABot.020",
+      "a": "hola",
+      "type": "qna",
+      "q": [
+        "hola",
+        "hello"
+      ]
+    }
+  ]
+}

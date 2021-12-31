@@ -1,0 +1,114 @@
+import time
+import threading
+#kit = ServoKit(channels=16)
+#import kit
+lock = threading.Lock()
+
+def initialAvaIntroServo(stop):
+    # AVA moving head
+    while True:
+        lock.acquire()
+        print("kit.servo[10].angle = 120")
+        time.sleep(3)
+        if stop():
+            lock.release()
+            print('getting a stop thread for initialAvaIntroServo')
+            break
+        print("kit.servo[10].angle = 105")
+        time.sleep(3)
+        if stop():
+            lock.release()
+            print('getting a stop thread for initialAvaIntroServo')
+            break
+        print("kit.servo[10].angle = 90")
+        time.sleep(3)
+        if stop():
+            lock.release()
+            print('getting a stop thread for initialAvaIntroServo')
+            break
+        print("kit.servo[10].angle = 75")
+        time.sleep(3)
+        if stop():
+            lock.release()
+            print('getting a stop thread for initialAvaIntroServo')
+            break
+        print("kit.servo[10].angle = 60")
+        time.sleep(3)
+        if stop():
+            lock.release()
+            print('getting a stop thread for initialAvaIntroServo')
+            break
+        print("kit.servo[10].angle = 90")
+        time.sleep(3)
+        lock.release()
+        if stop():
+            print('getting a stop thread for initialAvaIntroServo')
+            break
+
+
+
+def myNameisAvaServo(stop):
+    #left hand hi movement
+    lock.acquire()
+    print("kit.servo[3].angle = 120")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 90")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 70")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 40")
+    time.sleep(3)
+    print("kit.servo[3].angle = 70")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 90")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 120")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 180")
+    time.sleep(2)
+    lock.release()
+    if stop():
+        print('getting a stop thread for myNameisAvaServo')
+
+        
+def Avadoyouhavequestion(stop):
+    #eyemovement
+    lock.acquire()
+    print("kit.servo[8].angle = 120")
+    time.sleep(2)
+    print("kit.servo[8].angle = 90")
+    time.sleep(2)
+    lock.release()
+    if stop():
+        print('getting a stop thread for Avadoyouhavequestion')
+
+def checkAgentontheright():
+    #righthandmovement
+    print("kit.servo[13].angle = 90")
+    time.sleep(2)
+    print("kit.servo[13].angle = 0")
+    time.sleep(2)
+    lock.release()
+
+def avagoodbye(stop):
+    #left hand hi movement
+    lock.acquire()
+    print("kit.servo[13].angle = 120")
+    time.sleep(0.2)
+    print("kit.servo[12].angle = 90")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 70")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 40")
+    time.sleep(3)
+    print("kit.servo[3].angle = 70")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 90")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 120")
+    time.sleep(0.2)
+    print("kit.servo[3].angle = 180")
+    time.sleep(2)
+    lock.release()
+    if stop():
+        print('getting a stop thread for myNameisAvaServo')
