@@ -24,7 +24,7 @@ Exhaustive list of questions available on the git repository in the List of QnA/
 
 ## The TSA Bot Architecture
 
-<img src="Images/TSABot-FinalArchitecture.png">
+<img src="images/TSABot-FinalArchitecture.png">
 
 
 
