@@ -65,7 +65,7 @@ More details about servo motors and configuration [here](Docs/TSA-Bot-ServoMotor
 
 
 ## Security
-See [CONTRIBUTING](contributing.md) for more information.
+See [CONTRIBUTING](CONTRIBUTING.md) for more information.
 
 ## License
 
