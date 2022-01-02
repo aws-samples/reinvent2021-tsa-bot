@@ -59,9 +59,9 @@ Exhaustive list of questions available on the git repository in the List of QnA/
 # Install the TSA Bot solution
 ## Getting started (step by step)
 
-Follow the step by step deployment instructions in this [getting started documentation](docs/GettingStarted.md). This describes how to deploy the resources locally on the bot, and resources in the cloud.
+Follow the step by step deployment instructions in this [getting started documentation](Docs/GettingStarted.md). This describes how to deploy the resources locally on the bot, and resources in the cloud.
   
-More details about servo motors and configuration [here](docs/TSA-Bot-ServoMotors-details.md)
+More details about servo motors and configuration [here](Docs/TSA-Bot-ServoMotors-details.md)
 
 
 ## Security
