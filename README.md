@@ -1,5 +1,5 @@
 # TSA Bot
-This repo contains sample code for TSA bot at Reinvent 2021- AWS Builder's Fair. The project sample code is intended to help you replicate what you may have seen in a Builder's Fair project demo at an event, and to set up AWS infrastructure for further experimentation.
+This repo contains sample code for TSA bot presented at Reinvent 2021- AWS Builder's Fair. The project sample code is intended to help you replicate what you may have seen in a Builder's Fair project demo at an event, and to set up AWS infrastructure for further experimentation.
 
 ## Overview 
 T. S. A. Bot is a humanoid robot, that can **assist** with the security screening process at the airport. The bot is powered by AWS to showcase how you can use AWS services to solve everyday challenges. 
