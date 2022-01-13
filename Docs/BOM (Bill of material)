@@ -1,5 +1,7 @@
 # Bill of Material (BOM)
 
+## Overview of the items used to build TSA bot
+
 
 | Item      | Description |
 | ----------- | ----------- |
@@ -22,8 +24,6 @@
 <li>Right elbow movement (channel 12) -- Initial position at angle 180</li>
 <li>Right shoulder-2 movement (channel 13) ---Initial position at angle 160</li>
 </ol> 
-2.	We will be setting it to 7.5 voltage for free movement **If voltage is below, you might have slow movements. If voltage is too high, you might have fast movements that we recommend to break into smaller movements with pauses between these)**
-
-
+-	We will be setting it to 7.5 voltage for free movement **If voltage is below, you might have slow movements. If voltage is too high, you might have fast movements that we recommend to break into smaller movements with pauses between these)**
 - Since we have 8 servos, we cannot connect directly to raspi, as raspi don’t have enough GPIO pins. That’s why we are using I2C serial connector (- I2C https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c) I2C is used to connect 8 servo motors to move hands and neck  
 ) where in we can use 16 channel to connect 16 servos. More details [here](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c)
